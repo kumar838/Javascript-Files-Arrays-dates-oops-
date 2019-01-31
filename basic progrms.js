@@ -156,7 +156,7 @@ for (i = 0; i <= n; i++)
         }
     }
     if (prime){
-        console.log(i);   0 1 2 3 5 7 11 13 17 19
+        console.log(i);   // o/p:0 1 2 3 5 7 11 13 17 19
     }
 }
 }
