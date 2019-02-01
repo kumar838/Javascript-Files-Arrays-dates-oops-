@@ -175,3 +175,19 @@ for(i=0;i<arguments.length;i++)
 console.log(user(8,9,0));  // 8 9 0
 console.log(user(1));  // 1
 console.log(user(1,2,3,5,7,9)); // 1 2 3 5 7 9
+
+// find the count of each item in an array
+
+var array = ["2","1","2","2","3","4","3","3","3","5"];
+
+var result = array.reduce(function(p, c){
+    if (c in p) {
+       p[c]++;
+    } else {
+       p[c]=1;
+    }
+    return p;
+}, {});
+
+console.log(result);
+// o/p: {1: 1, 2: 3, 3: 4, 4: 1, 5: 1}
