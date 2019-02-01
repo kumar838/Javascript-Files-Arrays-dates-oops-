@@ -161,3 +161,17 @@ for (i = 0; i <= n; i++)
 }
 }
 primeNumbers(20);
+
+
+// Number of arguments passed in a function.
+
+function user(){
+for(i=0;i<arguments.length;i++)
+ {
+   console.log(arguments[i]);
+ }
+}
+
+console.log(user(8,9,0));  // 8 9 0
+console.log(user(1));  // 1
+console.log(user(1,2,3,5,7,9)); // 1 2 3 5 7 9
