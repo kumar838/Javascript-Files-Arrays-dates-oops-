@@ -191,3 +191,29 @@ var result = array.reduce(function(p, c){
 
 console.log(result);
 // o/p: {1: 1, 2: 3, 3: 4, 4: 1, 5: 1}
+
+
+//  find prime number or not
+
+function test_prime(n)
+{
+  if (n===1) {return false;}
+  else if(n === 2) {return true;}
+  else
+  {
+    for(var x = 2; x < n; x++)
+    {
+      if(n % x === 0)
+      {
+        return false;
+      }
+    }
+    return true;  
+  }
+}
+
+console.log(test_prime(37));
+
+
+
+
