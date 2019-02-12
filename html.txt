@@ -22,7 +22,7 @@ c.All browsers need the doctype. Without the DOCTYPE you are forcing the browser
 
 Q2)Web Workers
 A)1.The simplest use of workers is for performing a computationally expensive task without interrupting the user interface.
-2.Web workers enable multi-threading on the front end by spawning new background threads and running scripts in isolation. As a result,
+2.Web workers enable multi-threading on the front end by releasing new background threads and running scripts in process. As a result,
 scripts executed by workers need to be contained in separate files. Because web workers execute scripts in isolated threads, scripts do
 not interfere with the main thread and consequently do not interrupt the UI.
 creating:
