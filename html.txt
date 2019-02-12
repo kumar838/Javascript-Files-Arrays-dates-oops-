@@ -53,10 +53,11 @@ Q3)What is HTML5 Web Storage? Explain localStorage and sessionStorage.
 
 With HTML5, web pages can store data locally within the user’s browser.
 
-Earlier, this was done with cookies. However, Web Storage is more secure and faster. The data is not included with every server request, 
+Earlier, this was done with cookies. However, Web Storage is more secure and faster. The data is not included with every server request,
 but used ONLY when asked for.
 
-The data is stored in name/value pairs, and a web page can only access data stored by itself. Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.
+The data is stored in name/value pairs, and a web page can only access data stored by itself. Unlike cookies, the storage limit is far
+larger (at least 5MB) and information is never transferred to the server.
 
 ->The difference between localStorage and sessionStorage involves the lifetime and scope of the storage.
 
