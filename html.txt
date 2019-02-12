@@ -14,7 +14,9 @@ A)1.HTML5:
 
 The DOCTYPE Declaration (DTD or Document Type Declaration) does a couple of things:
 
-a.When performing HTML validation testing on a web page it tells the HTML (HyperText Markup Language) validator which version of (X)HTML standard the web page coding is supposed to comply with. When you validate your web page the HTML validator checks the coding against the applicable standard then reports which portions of the coding do not pass HTML validation (are not compliant).
+a.When performing HTML validation testing on a web page it tells the HTML (HyperText Markup Language) validator which version of (X)HTML
+standard the web page coding is supposed to comply with. When you validate your web page the HTML validator checks the coding against
+the applicable standard then reports which portions of the coding do not pass HTML validation (are not compliant).
 b.It tells the browser how to render the page in standards compliant mode.
 c.All browsers need the doctype. Without the DOCTYPE you are forcing the browsers to render in Quirks Mode.
 
